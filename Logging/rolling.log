@@ -1,0 +1,40 @@
+----------------------------------------
+General Error: 100 : Timestamp: 8/8/2014 4:24:58 AM
+Message: HandlingInstanceID: 92418185-81f9-44f4-9086-eef638f8ba83
+An exception of type 'System.DivideByZeroException' occurred and was caught.
+----------------------------------------------------------------------------
+08/08/2014 09:54:58
+Type : System.DivideByZeroException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Attempted to divide by zero.
+Source : Logging
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+HResult : -2147352558
+Stack Trace :    at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+
+Additional Info:
+
+MachineName : ADMIN-PC
+TimeStamp : 8/8/2014 4:24:58 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/13/ROOT-1-130519454967660214
+ThreadIdentity : 
+WindowsIdentity : Admin-PC\Admin
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Logging 
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519454967660214
+ProcessId: 3356
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:4244
+Extended Properties: 
+    LogicalOperationStack=
+    DateTime=2014-08-08T04:24:58.1751020Z
+    Timestamp=10113292804
+----------------------------------------

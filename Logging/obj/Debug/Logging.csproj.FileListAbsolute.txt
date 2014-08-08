@@ -1,0 +1,13 @@
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Logging.dll
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Logging.pdb
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\obj\Debug\Logging.dll
+c:\users\admin\documents\visual studio 2012\Projects\Logging\Logging\obj\Debug\Logging.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\Admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Admin\documents\visual studio 2012\Projects\Logging\Logging\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml

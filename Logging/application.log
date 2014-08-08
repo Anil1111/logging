@@ -1,0 +1,425 @@
+----------------------------------------
+All Events Information: 1 : Timestamp: 8/8/2014 4:10:52 AM
+Message: System.DivideByZeroException: Attempted to divide by zero.
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519446502563800
+ProcessId: 3968
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:5220
+Extended Properties: 
+    ProcessId=3968
+    LogicalOperationStack=
+    ThreadId=6
+    DateTime=2014-08-08T04:10:52.5724195Z
+    Timestamp=7889261843
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FormattedTextWriterTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.RollingFlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogSource.TraceData(TraceEventType eventType, Int32 id, LogEntry logEntry, TraceListenerFilter traceListenerFilter, TraceEventCache traceEventCache, ReportTracingError reportError)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ProcessLog(LogEntry log, TraceEventCache traceEventCache)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.<>c__DisplayClass13.<Write>b__12()
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ExecuteReadOperation(Action readOperation)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(Object message, IEnumerable`1 categories, Int32 priority, Int32 eventId, TraceEventType severity, String title, IDictionary`2 properties)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(Object message)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(Object message)
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 28
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\8c9c7564\c2bff436\App_Web_snyr2uc3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+----------------------------------------
+----------------------------------------
+All Events Information: 1 : Timestamp: 8/8/2014 4:13:50 AM
+Message: System.DivideByZeroException: Attempted to divide by zero.
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519448282169917
+ProcessId: 3836
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:3452
+Extended Properties: 
+    ProcessId=3836
+    LogicalOperationStack=
+    ThreadId=6
+    DateTime=2014-08-08T04:13:50.2901103Z
+    Timestamp=8356671693
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FormattedTextWriterTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.RollingFlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogSource.TraceData(TraceEventType eventType, Int32 id, LogEntry logEntry, TraceListenerFilter traceListenerFilter, TraceEventCache traceEventCache, ReportTracingError reportError)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ProcessLog(LogEntry log, TraceEventCache traceEventCache)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.<>c__DisplayClass13.<Write>b__12()
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ExecuteReadOperation(Action readOperation)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(Object message, IEnumerable`1 categories, Int32 priority, Int32 eventId, TraceEventType severity, String title, IDictionary`2 properties)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(Object message)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(Object message)
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 28
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\8c9c7564\c2bff436\App_Web_ocicaqde.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+----------------------------------------
+----------------------------------------
+All Events Information: 1 : Timestamp: 8/8/2014 4:21:58 AM
+Message: System.DivideByZeroException: Attempted to divide by zero.
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519453154645881
+ProcessId: 3700
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:5020
+Extended Properties: 
+    ProcessId=3700
+    LogicalOperationStack=
+    ThreadId=7
+    DateTime=2014-08-08T04:21:58.2027447Z
+    Timestamp=9639942961
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FormattedTextWriterTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.RollingFlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogSource.TraceData(TraceEventType eventType, Int32 id, LogEntry logEntry, TraceListenerFilter traceListenerFilter, TraceEventCache traceEventCache, ReportTracingError reportError)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ProcessLog(LogEntry log, TraceEventCache traceEventCache)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.<>c__DisplayClass13.<Write>b__12()
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ExecuteReadOperation(Action readOperation)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(Object message, IEnumerable`1 categories, Int32 priority, Int32 eventId, TraceEventType severity, String title, IDictionary`2 properties)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(Object message)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(Object message)
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 28
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\8c9c7564\c2bff436\App_Web_g1yqvrsu.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+----------------------------------------
+----------------------------------------
+All Events Error: 100 : Timestamp: 8/8/2014 4:21:58 AM
+Message: HandlingInstanceID: 469ab4c8-4d3e-4f77-8b2a-6a1f629713d8
+An exception of type 'System.DivideByZeroException' occurred and was caught.
+----------------------------------------------------------------------------
+08/08/2014 09:51:58
+Type : System.DivideByZeroException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Attempted to divide by zero.
+Source : Logging
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+HResult : -2147352558
+Stack Trace :    at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+
+Additional Info:
+
+MachineName : ADMIN-PC
+TimeStamp : 8/8/2014 4:21:58 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/13/ROOT-1-130519453154645881
+ThreadIdentity : 
+WindowsIdentity : Admin-PC\Admin
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Logging 
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519453154645881
+ProcessId: 3700
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:5020
+Extended Properties: 
+    ProcessId=3700
+    LogicalOperationStack=
+    ThreadId=7
+    DateTime=2014-08-08T04:21:58.2307463Z
+    Timestamp=9640017752
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FormattedTextWriterTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.RollingFlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogSource.TraceData(TraceEventType eventType, Int32 id, LogEntry logEntry, TraceListenerFilter traceListenerFilter, TraceEventCache traceEventCache, ReportTracingError reportError)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ProcessLog(LogEntry log, TraceEventCache traceEventCache)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.<>c__DisplayClass13.<Write>b__12()
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ExecuteReadOperation(Action readOperation)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler.WriteToLog(String logMessage, IDictionary exceptionData)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler.HandleException(Exception exception, Guid handlingInstanceId)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.ExecuteHandlerChain(Exception ex, Guid handlingInstanceID)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyDefinition.HandleException(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionManager.HandleException(Exception exceptionToHandle, String policyName)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicy.HandleException(Exception exceptionToHandle, String policyName)
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 29
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\8c9c7564\c2bff436\App_Web_g1yqvrsu.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+----------------------------------------
+----------------------------------------
+All Events Error: 100 : Timestamp: 8/8/2014 4:23:23 AM
+Message: HandlingInstanceID: a5d037fd-3197-42fb-a6aa-85eae5a4e835
+An exception of type 'System.DivideByZeroException' occurred and was caught.
+----------------------------------------------------------------------------
+08/08/2014 09:53:23
+Type : System.DivideByZeroException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Attempted to divide by zero.
+Source : Logging
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+HResult : -2147352558
+Stack Trace :    at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+
+Additional Info:
+
+MachineName : ADMIN-PC
+TimeStamp : 8/8/2014 4:23:23 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/13/ROOT-1-130519454005903318
+ThreadIdentity : 
+WindowsIdentity : Admin-PC\Admin
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Logging 
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519454005903318
+ProcessId: 3188
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:5180
+Extended Properties: 
+    ProcessId=3188
+    LogicalOperationStack=
+    ThreadId=7
+    DateTime=2014-08-08T04:23:23.2463744Z
+    Timestamp=9863618645
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FormattedTextWriterTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.RollingFlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogSource.TraceData(TraceEventType eventType, Int32 id, LogEntry logEntry, TraceListenerFilter traceListenerFilter, TraceEventCache traceEventCache, ReportTracingError reportError)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ProcessLog(LogEntry log, TraceEventCache traceEventCache)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.<>c__DisplayClass13.<Write>b__12()
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ExecuteReadOperation(Action readOperation)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler.WriteToLog(String logMessage, IDictionary exceptionData)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler.HandleException(Exception exception, Guid handlingInstanceId)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.ExecuteHandlerChain(Exception ex, Guid handlingInstanceID)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyDefinition.HandleException(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionManager.HandleException(Exception exceptionToHandle, String policyName)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicy.HandleException(Exception exceptionToHandle, String policyName)
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 28
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\8c9c7564\c2bff436\App_Web_yxutnqj5.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+----------------------------------------
+----------------------------------------
+All Events Error: 100 : Timestamp: 8/8/2014 4:24:58 AM
+Message: HandlingInstanceID: 92418185-81f9-44f4-9086-eef638f8ba83
+An exception of type 'System.DivideByZeroException' occurred and was caught.
+----------------------------------------------------------------------------
+08/08/2014 09:54:58
+Type : System.DivideByZeroException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Attempted to divide by zero.
+Source : Logging
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+HResult : -2147352558
+Stack Trace :    at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 23
+
+Additional Info:
+
+MachineName : ADMIN-PC
+TimeStamp : 8/8/2014 4:24:58 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/13/ROOT-1-130519454967660214
+ThreadIdentity : 
+WindowsIdentity : Admin-PC\Admin
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Logging 
+Machine: ADMIN-PC
+App Domain: /LM/W3SVC/13/ROOT-1-130519454967660214
+ProcessId: 3356
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:4244
+Extended Properties: 
+    ProcessId=3356
+    LogicalOperationStack=
+    ThreadId=7
+    DateTime=2014-08-08T04:24:58.1751020Z
+    Timestamp=10113292804
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FormattedTextWriterTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener.TraceData(TraceEventCache eventCache, String source, TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogSource.TraceData(TraceEventType eventType, Int32 id, LogEntry logEntry, TraceListenerFilter traceListenerFilter, TraceEventCache traceEventCache, ReportTracingError reportError)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ProcessLog(LogEntry log, TraceEventCache traceEventCache)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.<>c__DisplayClass13.<Write>b__12()
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.ExecuteReadOperation(Action readOperation)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler.WriteToLog(String logMessage, IDictionary exceptionData)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler.HandleException(Exception exception, Guid handlingInstanceId)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.ExecuteHandlerChain(Exception ex, Guid handlingInstanceID)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyDefinition.HandleException(Exception exceptionToHandle)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionManager.HandleException(Exception exceptionToHandle, String policyName)
+   at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicy.HandleException(Exception exceptionToHandle, String policyName)
+   at Logging.Default.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\Visual Studio 2012\Projects\Logging\Logging\Default.aspx.cs:line 28
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\8c9c7564\c2bff436\App_Web_yxutnqj5.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+----------------------------------------
